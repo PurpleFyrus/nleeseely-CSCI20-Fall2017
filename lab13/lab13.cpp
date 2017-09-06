@@ -10,9 +10,9 @@ using namespace std;
 int main()
 {
     
-    double sec_per_birth;
-    double sec_per_death;
-    double sec_per_immigrant;
+    double sec_per_birth;                   //num of seconds for every birth
+    double sec_per_death;                   //num of seconds for every death
+    double sec_per_immigrant;               //num of seconds for every immigrant
     
     double current_population;
     
@@ -26,7 +26,7 @@ int main()
     int minutes_passed;
     long int sec_passed;
     
-    sec_per_birth     = 8;
+    sec_per_birth     = 8; 
     sec_per_death     = 12;
     sec_per_immigrant = 33;
     
@@ -39,7 +39,8 @@ int main()
     cout << "Enter the number of year in the future you want to go: " << endl;
     cin >> years_passed;
     
-    days_passed         = years_passed * 365;
+    //the following 4 lines are for conversion from year to seconds
+    days_passed         = years_passed * 365;               
     hours_passed        = days_passed * 24;
     minutes_passed      = hours_passed * 60;
     sec_passed          = minutes_passed * 60;
