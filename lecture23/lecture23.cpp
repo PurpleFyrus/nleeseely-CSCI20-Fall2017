@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-void function(string name){
+void function(string name1){
     cout << "Where is " << name << "?" << endl;
     cout << "Where is " << name << "?" << endl;
     cout << "Here I am!" << endl;
