@@ -6,6 +6,9 @@ then proceed to swap the values stored in the variables, then run it through a f
 from pounds to kilograms, and then run through another function that converts from kilograms back to 
 pounds.*/
 
+//Im going to fix this program so it outputs what is necessary, unless you are ok with where it is currently.
+//Up to you.
+
 #include <iostream>
 using namespace std;
 
