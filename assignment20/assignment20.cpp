@@ -129,15 +129,15 @@ int main(){
     race1.SetFirstPlaceTime(race1.DetermineFullSecs(first_place_time_minutes, first_place_time_seconds));
     
     cout << endl;
-    race1.Print();
+    race1.Print();  //The Print function is used here to output the results asked for.
     
     double number_of_quarter_miles = (race1.GetRaceDistanceFeet() / 1320);                                      //Divides the Race's distance in feet by 1320 feet (which is 1/4th of a mile) that way we know how many splits to output
     double time_split = race1.DetermineFullSecs(race1.GetMins(), race1.GetSecs()) / number_of_quarter_miles;    //Divides the runner's total time in seconds by the number of splits necessary so they can be accurate in their output
     
     cout << endl;
     cout << "Here are the Splits for the race for every quarter of a mile: " << endl;
-    
-    for (int i=0; i < number_of_quarter_miles; i++){        //this loop iterates enough times that there can be a split output for every quarter of a mile in the race's total distance.  
+    //This is where the splits are output through the use of a loop. 
+    for (int i=0; i < number_of_quarter_miles; i++){        //The loop iterates enough times that there can be a split output for every quarter of a mile in the race's total distance. 
         cout << "Split #" << i + 1 << ": ";
         cout << time_split * (i + 1) << " seconds for " << (i+1) << " quarter(s) of a mile." << endl;       //Each split is just an addition of the total time divided by the number of quarter of miles in the race's total distance.
     }
