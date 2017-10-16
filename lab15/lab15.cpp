@@ -1,42 +1,42 @@
-//created by: nick ls
+//Created by: Nick LS
 
-//the following algorithm is supposed to simulate madlibs
-//user inputs words, and they get a story back out of it
+//The following algorithm is supposed to simulate madlibs
+//User inputs words which are assigned to string variables, and they get a story back out of it using a combination of their 
 
 #include <iostream>
-#include <string>
+#include <string>                   //This library is used to allow the use of string datatype variables in the algorithm.
 
 using namespace std;
 
 int main() {
-    //all these string variables are used in the story as plot points
-    string tool_1;      //noun used later in the story
-    string tool_2;      //noun #2
-    string nurse_1;     //person's name
-    string item_1;      //another noun
-    string item_2;      //another noun
-    string place_1;     //another noun
+    //All these string variables are used in the story as plot points
+    string tool_1 = "tool_1"; //This is the first tool used in the story.
+    string tool_2 = "tool_2"; //This is the second tool used in the story.
+    string nurse_1 = "nurse_1"; //This is the name used in the story for the nurse.
+    string item_1 = "item_1"; //This is the first item used in the story.
+    string item_2 = "item_2"; //This is the second item used in the story.
+    string place_1 = "place_1"; //This is the place used in the story.
     
     cout << "For the following 6 inputs, please use only lowercase, letters, and no spaces" << endl;
     
     cout << "Please enter where you are from" << endl;
-    cin >> place_1;
+    cin >> place_1;                                                                 //User inputs the place here, which is assigned to the corresponding variable.
     
     cout << "Please enter a Tool you would use normally" << endl;
-    cin >> tool_1;
+    cin >> tool_1;                                                                  //User inputs a tool word
     
     cout << "Please enter another Tool you would use normally" << endl;
-    cin >> tool_2;
+    cin >> tool_2;                                                                  //User inputs one more word for a tool
     
     cout << "Please enter a name you just utterly detest" << endl;
-    cin >> nurse_1;
+    cin >> nurse_1;                                                                 //User inputs a name of someone they dislike, which is used for the nurse later on.
     
     cout << "Please enter an item you would hate to lose" << endl;
-    cin >> item_1;
+    cin >> item_1;                                                                  //User inputs an item.
     
     cout << "Please enter an item you would hate to have" << endl;
-    cin >> item_2;
-    
+    cin >> item_2;                                                                  //User inputs one more item.
+    //Then everything is used here and there among a bunch of string literals to print a story.
     cout << "It was a normal sunny day in " << place_1 << ", when suddenly you " << endl;
     cout << "find that there is a dog lying in the road, injured. You can't possibly" << endl;
     cout << "leave that dog to die, so you quickly load it into your car's back seat " << endl;
