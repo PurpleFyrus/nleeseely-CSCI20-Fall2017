@@ -50,18 +50,12 @@ ArrayTools::ArrayTools(int inputArray[], int inputArraySize) {
     my_array_size = inputArraySize;
 }
 
-
-
-
 void ArrayTools::Print() { 
     for (int i = 0; i < my_array_size; i++) {                     
     cout << my_array[i] << endl;
     }
     return;
 }
-
-
-
 
 int ArrayTools::Find_min(int lowerIndex, int higherIndex) {     
 
