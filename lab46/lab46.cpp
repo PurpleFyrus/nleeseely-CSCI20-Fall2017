@@ -1,6 +1,10 @@
+//Created by: Nick LS
+//Created on: 11/18/17
 
-
-
+/*the following program is supposed to take an input source file, use the data found in it to determine the gpa for however many students
+and then output it to an html file. The source file's format has the first and last name on the first line, the number of classes on the second line
+and then for each consecutive line a number representing the credit hours of the course and the letter grade the student got. Once the student's classes are
+all taken in, the next student (if any) is then done the same for.*/
 
 #include <iostream>
 #include <fstream>          //used to define stream objects to direct the flow of data in and out of this program
