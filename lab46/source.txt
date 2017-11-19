@@ -1,0 +1,13 @@
+Suzy Cue
+2
+5 A
+4 B
+Mary Sue
+2
+7 B
+5 C
+Nick Lee
+3
+4 B
+3 A
+2 C
