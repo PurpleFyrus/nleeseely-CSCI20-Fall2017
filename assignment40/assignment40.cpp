@@ -144,8 +144,7 @@ int main(){
     }
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-//possible code for first occurrence finder: first_occur[i] = source.find(word[i]);
+//This section searches the input_text_full_2 string for the first occurrence of the word stored in word_2[i] of that iteration. The Find() function of string returns the first occurrence of the word being searched for.
 
 for(int i=0; i<num_word_words; i++){
     first_occur[i] = input_text_full_2.find(word_2[i]);
