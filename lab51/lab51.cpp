@@ -8,7 +8,7 @@ int main() {
     char *name = new char[20];      //Here we create a new pointer that is pointing to a new character we created just for it. We needed to give the character array a size, otherwise it wouldn't run.
 
     cout << "Please enter a 10 letter word or less" << endl;
-    cin >> name;
+    cin >> name;                //Has the user store a word in the character array "name"
 
     char *head  = name;        //assigns the memory locations "name" is pointing to, to the pointer "head"
     char *tail = name;         //assigns the memory locations "name" is pointing to, to the pointer "tail"
