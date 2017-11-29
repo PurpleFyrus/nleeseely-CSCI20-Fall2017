@@ -181,9 +181,6 @@ fout.close();
         cout << word[i] << " " << num_occur[i] << " " << first_occur[i] << endl;
     }
     
-    cout << input_text_full << endl;
-    cout << input_text_full_2 << endl;
-    
-    
     return 0;
+  
 }
