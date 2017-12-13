@@ -90,6 +90,22 @@ shopping_list list1;
 
 list1.SetData(master_num_ingredients, master_ingredient_name, master_ingredient_price);
 
+/*string user_input;
+while(user_input!="end"){
+    cout << "what do you want?" << endl;
+    cout << "1. " << recipe1.GetRecipeName << endl;
+    cin >> user_input;
+    
+    if(user_input == 1){
+        for(int j = 0; j < recipe1.GetNumIngredients(); j++){
+            list1.add_to_list(recipe1.GetRecipeIngredientName(j), recipe1.GetRecipeIngredientAmount(j));
+        }
+    }
+    else if(other branch)
+    
+}
+/*for(int i = 0; i < total_number_of_chosen_recipes; i++) { */
+
 for(int j = 0; j < recipe1.GetNumIngredients(); j++){
 list1.add_to_list(recipe1.GetRecipeIngredientName(j), recipe1.GetRecipeIngredientAmount(j));
 }
