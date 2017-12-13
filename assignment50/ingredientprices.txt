@@ -1,0 +1,9 @@
+4
+pound(s) of hamburger
+2.99
+pound(s) of rice
+1.99
+cup(s) of milk
+3.99
+cup(s) of water
+4.99

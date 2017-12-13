@@ -35,7 +35,7 @@ int main() {
 
      if (nameLength < 10)               //If the "name" is less than 10 characters long
      {
-          while (tail != name)          //A while loop initiates, as long as the pointer isn't referencing to the first character in the character array "name"
+          while (tail != name - 1)          //A while loop initiates, as long as the pointer isn't referencing to the first character in the character array "name"
           {
                  cout << *tail;         //It outputs the character in the current memory location being referenced (starting from the end of the character array "name")
                  tail--;                //And then works it way to the first character in the variable "name".

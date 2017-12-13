@@ -1,0 +1,9 @@
+Total Shopping List Price: 18.95
+
+Ingredients Amount, Name, and Market Price for hamburger helper: 
+1 pound(s) of hamburger 2.99
+1 pound(s) of rice 1.99
+1 cup(s) of milk 3.99
+2 cup(s) of water 4.99
+
+Happy Shopping!
